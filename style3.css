@@ -1,0 +1,73 @@
+html {
+    cursor: wait;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body {
+    color: #1bff1b;
+    background-color: black;
+}
+.div_one {
+    color: #1bff1b;
+    position: absolute;
+    font-size: 2vh;
+    top: 5vh;
+    left: 3vw;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 40%;
+}
+.div_one:hover {
+    opacity: 20%;
+}
+.text_one {
+    color: #1bff1b;
+    font-size: 3vh;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    text-align: center;
+}
+.img_one {
+    position: relative;
+    width:20vw;
+    height:35vh;
+    top: 65.2vh;
+    left: 40vw;
+}
+.text_two {
+    color: #1bff1b;
+    font-weight: bold;
+    font-size: 5vh;
+    position: absolute;
+    top: 35vh;
+    left: 4.75vw;
+}
+.text_three {
+    color: #1bff1b;
+    font-weight: bold;
+    font-size: 2.5vh;
+    position: absolute;
+    top: 43vh;
+    left: 5vw;
+    cursor: default;
+}
+.text_four {
+    color: #1bff1b;
+    font-weight: bold;
+    font-size: 2.5vh;
+    position: absolute;
+    top: 47.5vh;
+    left: 5vw;
+    cursor: default;
+}
+.text_five {
+    color: #1bff1b;
+    font-weight: bold;
+    font-size: 2.5vh;
+    position: absolute;
+    top: 52vh;
+    left: 5vw;
+    cursor: default;
+}

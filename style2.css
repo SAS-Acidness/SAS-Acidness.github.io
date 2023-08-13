@@ -1,0 +1,128 @@
+body {
+    color: #1bff1b;
+    background-color: black;
+    font-size: 2vh;
+}
+.div_one {
+    color: #1bff1b;
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    font-size: 2vh;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 40%;
+}
+.div_one:hover {
+    opacity: 20%;
+}
+form {
+    color:#1bff1b;
+    background: transparent;
+    font-size: 2vh;
+}
+form .username {
+    position: absolute;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    top: 44vh;
+    left: 42.5vw;
+    color: #1bff1b;
+    background: transparent;
+    border: solid #1bff1bc4;
+    border-width: 0.2vw;
+    border-radius: 55px;
+    overflow: hidden;
+    max-width: 15vw;
+    max-height: 4vh;
+}
+form .password {
+    position: absolute;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    top: 50vh;
+    left: 42.5vw;
+    color: #1bff1b;
+    background: transparent;
+    border: solid #1bff1bc4;
+    border-width: 0.2vw;
+    border-radius: 55px;
+    overflow: hidden;
+    max-width: 15vw;
+    max-height: 4vh;
+}
+form .submit {
+    opacity: 100%;
+    font-size: 2vh;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 5vw;
+    height: 3.56vh;
+    top: 61vh;
+    left: 47.7vw;
+    color: black;
+    background: #1bff1b;
+    border: solid #1bff1b;
+    border-radius: 55px;
+    overflow: hidden;
+}
+form .submit:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+form .submit::placeholder {
+    opacity: 100%;
+    font-size: 2vh;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    width: 5vw;
+    height: 3.56vh;
+    top: 61vh;
+    left: 47.7vw;
+    color: black;
+    background: #1bff1b;
+    border: solid #1bff1b;
+    border-width: px;
+    border-radius: 55px;
+    overflow: hidden;
+}
+.text_one {
+    position: absolute;
+    text-align: center;
+    font-size: 2vh;
+    width: 15vw;
+    height: 4vh;
+    top: 54.5vh;
+    left: 42.5vw;
+    color: #1bff1b;
+    background: transparent;
+    border-radius: 55px;
+    overflow: hidden;
+}
+.div_three {
+    font-weight: bold;
+    font-size: 3.3vw;
+    top: 25vh;
+    left: 34.5vw;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5vh;
+    text-decoration-line: overline underline;
+    text-decoration-style: double;
+    position: absolute;
+    cursor: default;
+}
+.div_four {
+    font-weight: bold;
+    font-size: 3.25vw;
+    top: 24.3vh;
+    left: 34.5vw;
+    position: absolute;
+    cursor: default;
+}

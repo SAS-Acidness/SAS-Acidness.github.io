@@ -1,0 +1,118 @@
+body {
+    color: black;
+    background-color: #d8e2ff;
+}
+.rect_one {
+    background-color: rgb(40, 106, 239);
+    width: 100vw;
+    height: 11vh;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    opacity: 60%;
+}
+.div_one {
+    color: white;
+    background-color: #4771f0;
+    width: 5vw;
+    height: 2.5vh;
+    position: absolute;
+    font-size: 2vh;
+    top: 2vh;
+    left: 3vw;
+    font-weight: bold;
+    cursor: pointer;
+    text-align:center;
+    padding: 1vw;
+    border-radius: 25px;
+    opacity: 100%;
+}
+.div_one:hover {
+    opacity: 80%;
+}
+form {
+    color:black;
+    background: transparent;
+    font-size: 2vh;
+}
+form .username {
+    position: absolute;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    top: 44vh;
+    left: 42.5vw;
+    color: black;
+    background: transparent;
+    border: solid black;
+    border-width: 0.2pw;
+    border-radius: 55px;
+    overflow: hidden;
+}
+form .password {
+    position: absolute;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    top: 50vh;
+    left: 42.5vw;
+    color: black;
+    background: transparent;
+    border: solid black;
+    border-width: 0.2pw;
+    border-radius: 55px;
+    overflow: hidden;
+}
+form .submit {
+    opacity: 100%;
+    font-size: 2vh;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 5vw;
+    height: 3.56vh;
+    top: 61vh;
+    left: 47.7vw;
+    color: white;
+    background: black;
+    border: solid black;
+    border-radius: 55px;
+    overflow: hidden;
+}
+form .submit:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+form .submit::placeholder {
+    opacity: 100%;
+    font-size: 2vh;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    width: 5vw;
+    height: 3.56vh;
+    top: 61vh;
+    left: 47.7vw;
+    color: white;
+    background: black;
+    border: solid black;
+    border-radius: 55px;
+    overflow: hidden;
+}
+.text_one {
+    position: absolute;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    height: 4vh;
+    max-width: 15vw;
+    max-height: 4vh;
+    top: 54.5vh;
+    left: 42.5vw;
+    color: black;
+    background: transparent;
+    border-radius: 55px;
+    overflow: hidden;
+}
